@@ -32,3 +32,6 @@ jobs:
       - name: action-maven
         uses: comchangs/action-maven@v0.4-beta
         
+      - name: build
+        run: mvn clean install
+        
